@@ -5,19 +5,26 @@
     box-sizing: border-box;
 }
 
+body {
+    background: -webkit-linear-gradient(90deg, #427643,#477148,#4b6d4c);
+    background: linear-gradient(90deg, #427643,#477148,#4b6d4c);
+}
+
 /* Utilisation de grid */
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    justify-content: center;
+    margin: 75px auto 0px;
+    width: 304px;
+    border: 2px solid #aed717;
 }
 
 .cell {
-    border: 1px solid black;
+    border: 2px solid #aed717;
     display: flex;
     align-items: center;
-    justify-content: center;
+    box-sizing: border-box;
     font-size: 2rem;
     cursor: pointer;
 }
@@ -26,7 +33,7 @@
 .alert {
     display: none;
     position: fixed;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
@@ -38,7 +45,7 @@
 
 /* Création d'un bouton alerte personnalisée */
 #alertButton {
-    margin-top: 10px;
+    margin: 10px;
     padding: 5px 10px;
     cursor: pointer;
 }
