@@ -1,3 +1,11 @@
+/* Réinitialisaton du style des navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilisation de grid */
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 100px);
@@ -14,6 +22,7 @@
     cursor: pointer;
 }
 
+/* Masquage de l'alerte */
 .alert {
     display: none;
     position: fixed;
@@ -27,6 +36,7 @@
     z-index: 1000;
 }
 
+/* Création d'un bouton alerte personnalisée */
 #alertButton {
     margin-top: 10px;
     padding: 5px 10px;
