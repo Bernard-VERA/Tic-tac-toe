@@ -6,8 +6,8 @@
 }
 
 body {
-    background: -webkit-linear-gradient(90deg, #427643,#477148,#4b6d4c);
-    background: linear-gradient(90deg, #427643,#477148,#4b6d4c);
+    background: -webkit-linear-gradient(90deg, #2e672f,#477148,#4b6d4c);
+    background: linear-gradient(90deg, #427643,#2e672f,#4b6d4c);
 }
 
 /* Utilisation de grid */
@@ -24,8 +24,10 @@ body {
     border: 2px solid #aed717;
     display: flex;
     align-items: center;
+    justify-content: center;
     box-sizing: border-box;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: #e1fd50;
     cursor: pointer;
 }
 
@@ -43,7 +45,7 @@ body {
     z-index: 1000;
 }
 
-/* Création d'un bouton alerte personnalisée */
+/* Création d'un bouton d'alerte personnalisé */
 #alertButton {
     margin: 10px;
     padding: 5px 10px;
