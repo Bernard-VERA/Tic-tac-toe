@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -10,12 +11,25 @@ body {
     background: linear-gradient(90deg, #427643,#2e672f,#4b6d4c);
 }
 
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.text {
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    
+}
+
 /* Utilisation de grid */
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    margin: 80px auto 0px;
+    margin: 50px auto 0px;
     width: 304px;
     border: 2px solid #aed717;
 }

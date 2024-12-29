@@ -14,9 +14,7 @@
 
 Projet personnel (Décembre 2024 )  
 
-En cours de réalisation : Un jeu de Morpion simple, réalisé en HTML, CSS et JavaScript. Pour la première fois, j’ai utilisé l’intelligence artificielle, en l’occurrence COPILOT, pour écrire le fichier Javascript. J’ai trouvé que cela facilite grandement le travail, et apporte un gain de temps appréciable.  
-
-Vous pouvez suivre la progression du projet sur GitHub et sur le site en ligne.
+Un jeu de Morpion simple, réalisé en HTML, CSS et JavaScript. Pour la première fois, j’ai utilisé l’intelligence artificielle, en l’occurrence COPILOT, pour écrire le fichier Javascript. J’ai trouvé que cela facilite grandement le travail, et apporte un gain de temps appréciable.  
   
 
 ## Compétences 
