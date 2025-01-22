@@ -9,6 +9,7 @@
 body {
     background: -webkit-linear-gradient(90deg, #2e672f,#477148,#4b6d4c);
     background: linear-gradient(90deg, #427643,#2e672f,#4b6d4c);
+    overflow: auto;
 }
 
 h1 {
@@ -56,6 +57,7 @@ h1 {
     margin: auto;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 40px;
     width: 220px;
     background-color: white;
     padding: 20px;
@@ -80,6 +82,14 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
+    font-size: 0.8rem;
 }
 
+/* Media query pour les petits écrans */
+@media (max-height: 600px) {
+    footer {
+        position: static; /* Change la position du footer pour les petits écrans */
+        margin-top: 20px; /* Ajoute de la marge en haut pour séparer le footer du contenu */
+    }
+}
