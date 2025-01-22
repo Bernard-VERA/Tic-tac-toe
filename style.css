@@ -52,7 +52,7 @@ h1 {
 
 /* Masquage de l'alerte */
 .alert {
-    display: flex;
+    display: none;
     margin: auto;
     text-align: center;
     margin-top: 40px;
