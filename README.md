@@ -28,7 +28,10 @@ La création de ce jeu m’a permis d’améliorer mes compétences techniques e
 * Conception de la logique du jeu (définir les règles, vérifier les combinaisons gagnantes).
 * Gestion des tours et des conditions de victoire ou d'égalité.
 * Mise en place d'une interface utilisateur conviviale et esthétique avec HTML et CSS.
-* Tests pour s'assurer que le jeu fonctionne comme prévu dans différents navigateurs et sur différentes tailles d'écran.
+* Tests pour s'assurer que le jeu fonctionne comme prévu dans différents navigateurs et sur différentes tailles d'écran.  
+<br/>
+Vous pouvez voir le projet en cliquant ici : <a href="https://bernard-vera.github.io/Tic-tac-toe/" target="_blank">Tic-Tac-Toe</a>  
+
 
 --------
 
